@@ -1,12 +1,26 @@
-*{box-sizing:border-box}
-::-webkit-scrollbar{width:6px;height:6px;background-color:#000011;}
-::-webkit-scrollbar-thumb{background:#AD262D;border-radius:6px;}
+* {
+	box-sizing: border-box
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color: #000011;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #AD262D;
+	border-radius: 6px;
+}
+
 html {
 	scroll-behavior: smooth;
 }
+
 body {
 	margin: 0;
 }
+
 nav {
 	position: fixed;
 	width: 100%;
@@ -14,33 +28,42 @@ nav {
 	padding: 0;
 	box-shadow: 0 5px 15px #222222;
 }
-nav > a {
+
+nav>a {
 	width: 16.666%;
 	float: left;
 	text-align: center;
 }
+
 nav img {
 	width: 100%;
 	max-width: 120px;
 }
+
 .iron-man {
 	background-color: #AD262D;
 }
+
 .captain-america {
 	background-color: #FFFFFF;
 }
+
 .thor {
 	background-color: #D1D1D1;
 }
+
 .black-widow {
 	background-color: #000000;
 }
+
 .hulk {
 	background-color: #428B22;
 }
+
 .hawkeye {
 	background-color: #59487F;
 }
+
 section {
 	height: 150vh;
 	position: relative;
